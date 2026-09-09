@@ -6,7 +6,7 @@ public class Problem20 {
         // Print the product of digits of a given number. 
         int n = sc.nextInt();
         int product = 1;
-        while (n > 0) {
+        while (n != 0) {
             product *= (n % 10);
             n /= 10;
         }

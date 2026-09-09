@@ -6,7 +6,7 @@ public class Problem21 {
         //Count the number of digits in the given number
         int n = sc.nextInt();
         int count = 0;
-        while (n > 0) {
+        while (n != 0) {
             count++;
             n /= 10;
         }
@@ -16,7 +16,7 @@ public class Problem21 {
         int num = sc.nextInt();
         int originalNumber = num;
         int rev = 0;
-        while (num > 0) {
+        while (num != 0) {
             rev = rev * 10 + num % 10;
             num /= 10;
         }
